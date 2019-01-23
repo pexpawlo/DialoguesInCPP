@@ -1,12 +1,12 @@
-//Initial app
+//Character making
 
 #include<iostream>
-
+#include "Characters.h"
 using namespace std;
 int main()
 {
 
-	cout << "Hello World!" << endl;
+	initExampleCharacters();
 	system("pause");
 
 	return 0;
